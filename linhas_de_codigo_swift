@@ -1,1 +1,38 @@
-print("Hello word")
+// Online Swift compiler to run Swift program online
+// Print "Try programiz.pro" message
+//AULA 1
+print("Hello word") // <--obs essa linha nao pode estar para a proxima funcionar o mesmo para o resto
+// ou com o terminator para nao quebrar linha
+print("Hello word", terminator: " ")
+print("Hello word", terminator: " ")
+// ou separator para nao quebrar
+print("Hello word","Hello word", "Hello word" ,separator: " ")
+
+// AULA 2
+//VARIAVEIS E CONSTANTES 
+let name = "Pedro"
+var age = 21
+
+print(type(of: name )) // para saber qual eh o tipo da  
+print(type(of: age )) //variavel ex: int
+
+let name: string = "Pedro"
+var age: Int = 21 // essa é a forma de explicitar a variavel
+
+//AULA 3
+//Operadores unario binario e ternario
+var isOn:bool = false
+print(!isOn )// inverte o valor porem so nessa linhaa
+
+isOn.toggle()// inverte o valor porem ele reatribui o valor
+isOn //dela nao fica invertido soh nessa linha
+// operadores aritimeticos:
+var num1 = 10
+var num2 = 20
+print(num1 + num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 % num2)
+// atribuicao composta 
+num1 += 30 // num1 = num1 + 30
+print(num1)
