@@ -36,3 +36,52 @@ print(num1 % num2)
 // atribuicao composta 
 num1 += 30 // num1 = num1 + 30
 print(num1)
+
+//comparacao logica
+let num1 = 10
+let num2 = 20
+print(num1 > num2)
+print(num1 < num2)
+print(num1 <= num2)
+print(num1 >= num2)
+print(num1 == num2)
+
+// operadores logicos
+var n1 = 10
+var n2 = 20
+print(n1>50 && n1<50)
+
+print(n1>50 || n1<50)
+
+// bitwise 
+// 3 operadores
+& - "e" retorna 1 se os dois forem 1
+| - "ou" retorna 1 se os dois forem diferentes
+~ - "-" inverte em bit é o nosso negativo no swifit acrescenta 1
+pq é assim que ele representa o negativo
+
+var num1:Int8 = 2 //00000010
+var num2:Int8 = 4 //00000100
+
+print(~num1) //era p/ retornar -2 mas retorna -3 no normal
+print(num1 & num2) //   
+   101  (5)
+&  011  (3)
+-------
+   001  (1)
+print(num1 | num2 )
+//   011  (3)
+  |  010  (2)
+   -------
+     001  (1)
+
+//bitshift
+//   001  (1)
+<<  1    ← o 1 se move um para o lado desce ele
+-------
+   010  (2)
+
+   010  (2)
+>>  1 → o 1 se move para o lado e desce 
+-------
+   001  (1)
