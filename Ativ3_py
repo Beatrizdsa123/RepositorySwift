@@ -1,0 +1,10 @@
+P =int(input("Qual a posição da Porta P (1 ou 0) : "))
+R = int(input("Qual a Posição da porta R (1 ou 0): "))
+if P == 0 :
+    print ("A bolinha cairá em c")
+elif P == 1 and R == 0:
+    print("A bolinha cairá em B")
+elif P == 1 and R == 1:
+    print("A bolinha cairá em A")
+else:
+     print("Valor inválido")
